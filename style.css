@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2014/02/19/16/35/background-269933_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container .cartelera{
+    margin-bottom: 30px;
+}
+
+.encabesado{
+    background: blue;
+    padding: 10px;
+    background-image: url('https://img.lovepik.com/background/20211021/large/lovepik-black-texture-background-image_401617168.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.main{
+    padding-top: 30px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.pelicula{
+    display: flex;
+}
+
+.pelicula img{
+    width: 500px;
+    height: 300px;
+    width: 100%;
+    border-radius: 3%;
+}
+
+.pelicula-container{
+    background: #BABABA;
+    width: 300px;
+    overflow-wrap: break-word;
+    white-space: normal;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+    box-shadow: 0px 0px 1px #000;
+    border-radius: 3%;
+}
+
+.container-boton{
+    padding: 20px;
+    text-align: center;
+}
+
+.container-boton button{
+    padding: 10px;
+    background: #00ABF0;
+    color: white;
+    border-radius: 3%;
+    border-style: none;
+}
+.titulo{
+    padding: 10px;
+}
+.caja{
+    background: white;
+}
+.sinopsis{
+    padding: 10px;
+}
+
+.detalles{
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
